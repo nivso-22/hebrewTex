@@ -1,0 +1,6 @@
+; miktex-options.txt
+AutoInstall=1
+Shared=1
+InstallMissingPackages=True
+PackageSet=basic
+PreferredPaperSize=A4
