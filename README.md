@@ -5,6 +5,7 @@ docx -> LaTeX converter thats compatible with hebrew
 להריץ את install_hebrewTex ולאשר לו לתהקין את התוכנות לבד, או:
 
 1) להתקין LaTeX בעזרת MiKTeX כולל התקנת חבילות on the fly :  https://miktex.org/howto/install-miktex
+1.1) לוודא ב MiKTeX console שכל העדכונים הדרשוים מותקנים
 2) במסמכי docx צריך להחליף את כל ירידות השורה החלשות בחזקות על ידי:
 ctrl+H
 להחליף את 
@@ -18,6 +19,7 @@ ctrl+H
 4) להתקין pandoc https://pandoc.org/installing.html5
 
 5) להריץ את install_hebrewTex
+   
 כדי להריץ צריך ללכת לתיקיה בשורת הפקודה שבה הקובץ מאוחסן ולהקליד בשורת הפקודה:
 hebrewTex "input.docx" "output.tex"
 לפעמים יודפס שהקימפול נכשל אבל עדיין יווצר קובץ pdf כדרוש לכן קודם כל לבדוק
@@ -27,6 +29,7 @@ run install_hebrewTex and let it aut-install requirements, or:
 1) install LaTeX via MiKTeX including installing packages on the fly: https://miktex.org/howto/install-miktex
 
 1.1) open MiKTeX console and install all available updates
+
 2) in .docx docs to avoid overflowing use ctrl+H in ms word or similar to to replace all "^l"(soft line breaks) with "^p"(hard line breaks)
 
 2.1) make sure to get rid of images since they do not yet compile
