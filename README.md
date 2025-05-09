@@ -4,8 +4,8 @@ docx -> LaTeX converter thats compatible with hebrew
 1) להתקין LaTeX בעזרת MiKTeX כולל התקנת חבילות on the fly :  https://miktex.org/howto/install-miktex
 2) במסמכי docx צריך להחליף את כל ירידות השורה החלשות בחזקות על ידי:
 ctrl+H
-להחליף את ^l 
-ב- ^p
+להחליף את "^l" 
+ב- "^p"
 2.1) לוודא שאין תמונות בקובץ כי אחרת זה לא מתקמפל
 ולשמור מחדש
 3) להתקין pandoc https://pandoc.org/installing.html5
