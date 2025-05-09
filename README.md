@@ -10,6 +10,7 @@ ctrl+H
 "^l"
 ב-
 "^p"
+
 2.1) לוודא שאין תמונות בקובץ כי אחרת זה לא מתקמפל
 ולשמור מחדש
 4) להתקין pandoc https://pandoc.org/installing.html5
