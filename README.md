@@ -1,6 +1,7 @@
 # hebrewTex
 docx -> LaTeX converter thats compatible with hebrew
 כדי להריץ את זה צריך 
+להריץ את install_hebrewTex ולאשר לו לתהקין את התוכנות לבד, או:
 1) להתקין LaTeX בעזרת MiKTeX כולל התקנת חבילות on the fly :  https://miktex.org/howto/install-miktex
 2) במסמכי docx צריך להחליף את כל ירידות השורה החלשות בחזקות על ידי:
 ctrl+H
@@ -17,6 +18,7 @@ hebrewTex "input.docx" "output.tex"
 לפעמים יודפס שהקימפול נכשל אבל עדיין יווצר קובץ pdf כדרוש לכן קודם כל לבדוק
 
 on first use/install:
+run install_hebrewTex and let it aut-install requirements, or:
 1) install LaTeX via MiKTeX including installing packages on the fly: https://miktex.org/howto/install-miktex
 1.1) open MiKTeX console and install all available updates
 2) in .docx docs to avoid overflowing use ctrl+H in ms word or similar to to replace all "^l"(soft line breaks) with "^p"(hard line breaks)
