@@ -18,9 +18,9 @@ ctrl+H
 2.1) לוודא שאין תמונות בקובץ כי אחרת זה לא מתקמפל
 ולשמור מחדש
 
-4) להתקין pandoc https://pandoc.org/installing.html5
+3) להתקין pandoc https://pandoc.org/installing.html5
 
-5) להריץ את install_hebrewTex
+4) להריץ את install_hebrewTex
    
 כדי להריץ צריך ללכת לתיקיה בשורת הפקודה שבה הקובץ מאוחסן ולהקליד בשורת הפקודה:
 hebrewTex "input.docx" "output.tex"
