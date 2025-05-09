@@ -1,6 +1,7 @@
 # hebrewTex
 docx -> LaTeX converter thats compatible with hebrew
-כדי להריץ את זה צריך 
+
+כדי להריץ את זה צריך:
 להריץ את install_hebrewTex ולאשר לו לתהקין את התוכנות לבד, או:
 1) להתקין LaTeX בעזרת MiKTeX כולל התקנת חבילות on the fly :  https://miktex.org/howto/install-miktex
 2) במסמכי docx צריך להחליף את כל ירידות השורה החלשות בחזקות על ידי:
