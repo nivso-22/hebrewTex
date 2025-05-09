@@ -24,6 +24,7 @@ on first use/install:
 4) in .docx docs to avoid overflowing use ctrl+H in ms word or similar to to replace all "^l"(soft line breaks) with "^p"(hard line breaks)
 4.1) make sure to get rid of images since they do not yet compile
 5) install pandoc: https://pandoc.org/installing.html
+
 to execute navigate to the required directory using cmd and type:
 hebrewTex "input.docx" "output.tex"
 it may print that the compilation failed but a document was still produced so check the resulting file in any case
