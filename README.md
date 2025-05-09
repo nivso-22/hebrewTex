@@ -11,7 +11,7 @@ ctrl+H
 ב- ^p
 4.1) לוודא שאין תמונות בקובץ כי אחרת זה לא מתקמפל
 ולשמור מחדש
-5) להתקין pandoc
+5) להתקין pandoc https://pandoc.org/installing.html
 6) 
 כדי להריץ צריך ללכת לתיקיה בשורת הפקודה שבה הקובץ מאוחסן ולהקליד בשורת הפקודה:
 hebrewTex "input.docx" "output.tex"
