@@ -1,0 +1,8 @@
+פקודה בסיסית:
+hebrewTex input.docx output.tex
+
+  דיפולט:
+-o --from docx --to latex --standalone --toc --number-sections --wrap=none --no-highlight --extract-media=output.md !PANDOC_ARGS:
+כדי לשלוח פקודות נוספות ל pandoc פשוט צריך להוסיף עוד פקודות כמו שכותבים  עבור pandoc
+כדי להשתמש בהגדרות אחרות צריך להוסיף "--custom" 
+  
