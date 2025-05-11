@@ -15,8 +15,6 @@ ctrl+H
 ב-
 "^p"
 
-2.1) לוודא שאין תמונות בקובץ כי אחרת זה לא מתקמפל
-ולשמור מחדש
 
 3) להתקין pandoc https://pandoc.org/installing.html5
 
@@ -34,7 +32,6 @@ run install_hebrewTex and let it aut-install requirements, or:
 
 2) in .docx docs to avoid overflowing use ctrl+H in ms word or similar to to replace all "^l"(soft line breaks) with "^p"(hard line breaks)
 
-2.1) make sure to get rid of images since they do not yet compile
 
 3) install pandoc: https://pandoc.org/installing.html
 
