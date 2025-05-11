@@ -35,7 +35,7 @@ if "%USE_DEFAULT%"=="true" (
     pandoc "%INPUT%" -o temp_output.tex --from docx --to latex --standalone --toc --number-sections --wrap=none --no-highlight --extract-media=output.md !PANDOC_ARGS!
 ) else (
     echo 🛠 Using custom pandoc arguments...
-    pandoc "%INPUT%" -o temp_output.tex !PANDOC_ARGS!
+    pandoc "%INPUT%" -o temp_output.tex --standalone !PANDOC_ARGS!
 )
 
 :: Python post-processing
