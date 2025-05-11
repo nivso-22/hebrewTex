@@ -27,7 +27,7 @@ goto collect_args
 
 :run
 :: Extract media
-pandoc --extract-media=. "%INPUT%.docx" -o output.md
+pandoc --extract-media=. "%~1%.docx" -o output.md
 
 :: Choose pandoc command
 if "%USE_DEFAULT%"=="true" (
@@ -39,7 +39,7 @@ if "%USE_DEFAULT%"=="true" (
 )
 
 :: Python post-processing
-python C:\Users\converter.py temp_output.tex "%OUTPUT%"
+python C:\hebrewTex\converter.py temp_output.tex "%OUTPUT%"
 
 :: Compile
 xelatex -interaction=nonstopmode "%OUTPUT%"
