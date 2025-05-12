@@ -39,7 +39,7 @@ if "%USE_DEFAULT%"=="true" (
 )
 
 :: Python post-processing
-python C:\hebrewTex\converter.py temp_output.tex "%OUTPUT%"
+python "Program Files (x86)"\install_hebrewTex\converter.py temp_output.tex "%OUTPUT%"
 
 :: Compile
 xelatex -interaction=nonstopmode "%OUTPUT%"
