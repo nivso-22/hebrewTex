@@ -39,3 +39,6 @@ run install_hebrewTex and let it aut-install requirements, or:
 to execute navigate to the required directory using cmd and type:
 hebrewTex "input.docx" "output.tex"
 it may print that the compilation failed but a document was still produced so check the resulting file in any case
+
+
+this has been approved by microsoft in the request with id:fcf680c5-c667-42b7-b08c-06f200470d49
