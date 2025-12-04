@@ -23,6 +23,7 @@ ctrl+H
 כדי להריץ צריך ללכת לתיקיה בשורת הפקודה שבה הקובץ מאוחסן ולהקליד בשורת הפקודה:
 hebrewTex "input.docx" "output.tex"
 לפעמים יודפס שהקימפול נכשל אבל עדיין יווצר קובץ pdf כדרוש לכן קודם כל לבדוק
+אם לא עובד אפשר להעתיק את הקובץ "hebrewTex.bat" מהתיקיה שהורדתם אל תוך system32 ולהחליף את הקובץ הקיים שם
 
 on first use/install:
 run install_hebrewTex and let it aut-install requirements, or:
